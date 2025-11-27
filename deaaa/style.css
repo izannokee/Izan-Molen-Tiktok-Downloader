@@ -1,0 +1,14 @@
+/* Animasi simple */
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fadein {
+  animation: fadein 0.5s ease-out;
+}
